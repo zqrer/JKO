@@ -1,1 +1,2 @@
 # JKO
+We use Jordan-Kinderlehrer-Otto (JKO) scheme to solve the convection-diffusion equation in one-dimension and two-dimension. The main ideal of this method is transforming a partial differential equation problem into a optimization problem. The JKO method employs the Wasserstein distance and introduces a Fisher information regularization term to make the objective function convex. We also use the Scharfetter-Gummel approximation when discretize the objective function. This method is implemented with MATLAB, and the optimization solver is Ipopt.
